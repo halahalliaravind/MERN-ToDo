@@ -14,7 +14,6 @@ function App() {
         <h2>MERN STACK TODO APP</h2>
         <Route path="/" exact component={TodoList} />
         <Route path="/edit/:id" component={EditTodo} />
-        <Route path="/edit/:id" component={EditTodo} />
         <Route path="/create" component={CreateTodo} />
       </div>
     </Router>
